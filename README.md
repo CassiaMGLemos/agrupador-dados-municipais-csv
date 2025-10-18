@@ -28,6 +28,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Ativar ambiente virtual (Windows)
+# Novo terminal: command prompt
 .venv\Scripts\activate
 ```
 
@@ -110,7 +111,7 @@ python3 agrupador_planilhas.py -i dados.csv -o resultado.csv -s "," -d "."
 
 **Exemplo 4:** Usar todos os parâmetros
 ```bash
-python3 agrupador_planilhas.py --input dados.csv --output resultado.csv --separator ";" --encoding "utf-8" --decimal ","
+python agrupador_planilhas.py --input dados.csv --output resultado.csv --separator ";" --encoding "utf-8" --decimal ","
 ```
 
 ## 📊 Saída Esperada
