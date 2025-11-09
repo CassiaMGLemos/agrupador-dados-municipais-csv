@@ -69,7 +69,7 @@ Exemplos de uso:
     df_municipio = pd.read_csv(INPUT_CSV_FILE_PATH)
     
     # Converter colunas para numeric, coercendo erros para NaN
-    colunas_numericas = ['V12', 'V013', 'V014', 'V015']
+    colunas_numericas = ['V012', 'V013', 'V014', 'V015']
     for col in colunas_numericas:
         df_municipio[col] = pd.to_numeric(df_municipio[col], errors='coerce')
         
